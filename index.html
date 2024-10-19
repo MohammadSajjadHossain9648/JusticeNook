@@ -16,6 +16,76 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body class="font_poppins text-black_color max-w-screen-xl mx-auto">
+    <main class="sm:mx-8 md:mx-20 lg:mx-32">
+        <!-- header section -->
+        <header>
+            <!-- navbar -->
+            <div class="navbar sm:my-4 md:my-8">
+                <div class="navbar-start">
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost md:hidden">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                class="h-5 w-5"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke="currentColor">
+                                <path
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                stroke-width="2"
+                                d="M4 6h16M4 12h8m-8 6h16" />
+                            </svg>
+                        </div>
+                        <ul
+                        tabindex="0"
+                        class="menu menu-sm dropdown-content rounded-box z-[1] mt-3 w-32 p-2 backdrop-blur-lg">
+                        <li><a href="#" class="text-white_color p-2">Home</a></li>
+                        <li><a href="#" class="text-white_color p-2">Services</a></li>
+                        <li><a href="#" class="text-white_color p-2">Cases</a></li>
+                        <li><a href="#" class="text-white_color p-2">Blog</a></li>
+                        <li><a href="#" class="text-white_color p-2">Contact Us</a></li>
+                        </ul>
+                    </div>
+                    <figure>
+                        <img class="h-7" src="images/logo2.png" alt="brand logo image">
+                    </figure>
+                </div>
+
+                <div class="navbar-center hidden md:flex">
+                    <ul class="menu menu-horizontal">
+                        <li><a href="#" class="text-xs text-grey_color p-2">Home<img src="images/greater_sign.svg" alt="greater sign icon image"></a></li>
+                        <li><a href="#" class="text-xs text-grey_color p-2">Services<img src="images/greater_sign.svg" alt="greater sign icon image"></a></li>
+                        <li><a href="#" class="text-xs text-grey_color p-2">Cases<img src="images/greater_sign.svg" alt="greater sign icon image"></a></li>
+                        <li><a href="#" class="text-xs text-grey_color p-2">Blog<img src="images/greater_sign.svg" alt="greater sign icon image"></a></li>
+                        <li><a href="#" class="text-xs text-grey_color p-2">Contact Us<img src="images/greater_sign.svg" alt="greater sign icon image"></a></li>
+                    </ul>
+                </div>
+
+                <div class="navbar-end">
+                    <button class="btn bg-brown_color text-xs font-semibold text-white_color">Free Consultation</button>
+                </div>
+            </div>
+
+            <!-- body -->
+            <section class="relative text-white_color bg-[url('../images/banner.png')] bg-center bg-cover bg-no-repeat py-20 rounded-md">
+                <!-- shade over background image -->
+                <div class="absolute bg-gradient-to-t from-custom_grey_1 to-custom_grey_2 inset-0"></div>
+
+                <!-- container -->
+                <div class="relative z-10 sm:w-4/5 md:w-4/6 lg:w-1/2 mx-auto text-center">
+                    <h1 class="font_eb_garamond text-6xl leading-tight">We Provide Effective Legal Solutions</h1>
+                    <p class="py-4 text-xs text-shade_white_color1">
+                        Our firm delivers efficient, results-driven legal services by analyzing each client’s needs and offering practical solutions in areas like business disputes, family law, and criminal defense. We ensure clear communication and expert guidance to protect client interests.
+                    </p>
+                    <div class="">
+                        <input class="h-12 w-3/4 pl-4 text-black_color placeholder:text-xs placeholder:text-shade_grey_color outline-none rounded-lg" type="text" placeholder="Search your services">
+                        <button class="btn border-none bg-brown_color text-sm font-semibold text-white_color px-6 ml-5">Search</button>
+                    </div>
+                </div>
+            </section>
+        </header>
+    </main>
 
 </body>
 </html>

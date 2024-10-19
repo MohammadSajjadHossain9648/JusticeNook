@@ -13,6 +13,9 @@ tailwind.config = {
         shade_grey_color: 'rgb(160, 160, 160)',
 
         brown_color: 'rgb(182, 140, 90)',
+
+        custom_grey_1: 'rgb(17, 17, 17)',
+        custom_grey_2: 'rgba(17, 17, 17, 0)',
       }
     }
   }
