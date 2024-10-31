@@ -17,6 +17,9 @@ tailwind.config = {
 
         custom_grey_1: 'rgb(17, 17, 17)',
         custom_grey_2: 'rgba(17, 17, 17, 0)',
+      },
+      gridTemplateColumns: {
+        custom: '0.6fr 1fr 1.4fr'
       }
     }
   }
